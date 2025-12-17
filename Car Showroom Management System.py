@@ -4,7 +4,7 @@ import mysql.connector as mc
 
 #database and tables
 
-mydb = mc.connect(host="127.0.0.1",user='root',password="Hero0733x",port=3306,use_pure=True,connection_timeout=5)
+mydb = mc.connect(host="localhost",user='root',password=" ")
 
 mycursor = mydb.cursor()
 
@@ -706,3 +706,4 @@ login()
 
 
         
+
